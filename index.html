@@ -293,6 +293,24 @@
                 right: 30px;
                 transition: all 0.3s linear;
             }
+            
+            #add-icon{    /*浮空按钮*/
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                color: #fff;
+                background-color: #00ccaa;
+                border: 0 solid #00ccaa;
+                border-radius: 50px;
+                box-shadow: 0px 3px  3px #00000066;
+                font-size: 25px;
+                font-family: 'Material Icons';
+                z-index: 114513;
+                bottom: 85px;
+                right: 30px;
+                transition: all 0.3s linear;
+            }
 
             a.zcantuse:hover {
                 color: #fff;
@@ -503,6 +521,7 @@
                 document.getElementById('message-icon').style.color='#00ccaa';
                 document.getElementById('people-icon').style.color='#555555';
                 document.getElementById('settings-icon').style.color='#555555';
+                document.getElementById('add-icon').style.bottom='85px';
             }
             
             function people(){
@@ -512,6 +531,7 @@
                 document.getElementById('message-icon').style.color='#555555';
                 document.getElementById('people-icon').style.color='#00ccaa';
                 document.getElementById('settings-icon').style.color='#555555';
+                document.getElementById('add-icon').style.bottom='85px';
             }
             
             function settings(){
@@ -521,6 +541,7 @@
                 document.getElementById('message-icon').style.color='#555555';
                 document.getElementById('people-icon').style.color='#555555';
                 document.getElementById('settings-icon').style.color='#00ccaa';
+                document.getElementById('add-icon').style.bottom='0';
             }
         </script>
     </head>
@@ -562,7 +583,7 @@
                 <br>
                 <h1>Friends</h1>
                 <br>
-                <a class="float">add</a>
+                <a class="float" id="add-icon">add</a>
             </div>
             <br>
             <br>
