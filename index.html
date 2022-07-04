@@ -140,12 +140,12 @@
                 color: #333;
             }
 		
-            ul.top {    /*该文档将所有ul标签均作为标题栏处理。如有需要请给此项加class。*/
-    		list-style-type: none;
-	    	margin: 0;
-		padding: 0;
-		overflow: hidden;
-    		background-color: #fff;
+		    ul.top {    /*该文档将所有ul标签均作为标题栏处理。如有需要请给此项加class。*/
+    		    list-style-type: none;
+	    	    margin: 0;
+		        padding: 0;
+		        overflow: hidden;
+    		    background-color: #fff;
                 position: fixed;
                 top: 0;
                 width: 100%;
@@ -155,11 +155,11 @@
             }
 
             ul.bottom {
-    		list-style-type: none;
-	    	margin: 0;
-		padding: 0;
-		overflow: hidden;
-    		background-color: #fff;
+    		    list-style-type: none;
+	    	    margin: 0;
+		        padding: 0;
+		        overflow: hidden;
+    		    background-color: #fff;
                 position: fixed;
                 bottom: 0;
                 top: 20;
@@ -173,46 +173,46 @@
                 text-align: center;
             }
 		
-            li.top {
-		float: left;
-	    }
+		    li.top {
+		        float: left;
+		    }
 
             li.bottom {
-		text-align: center;
-            }
+		        text-align: center;
+		    }
 		
-            li a, .dropbtn {    /*注意：如果你使用中文标题，请将下文li标签中a标签中的class属性删除，使用英文标题请忽略此注释*/
-    		display: inline-block;
-	    	color: #555;
-		text-align: center;
-		padding: 14px 15px;
-    		text-decoration: none;
-    		font-size: 19px;
-	    }
+		    li a, .dropbtn {    /*注意：如果你使用中文标题，请将下文li标签中a标签中的class属性删除，使用英文标题请忽略此注释*/
+    		    display: inline-block;
+	    	    color: #555;
+		        text-align: center;
+		        padding: 14px 15px;
+    		    text-decoration: none;
+    		    font-size: 19px;
+	    	}
 
             a.material-iconstop {   /*Material Design图标支持（仅标题栏）*/
                 font-family: 'Material Icons';
                 display: inline-block;
-	    	color: #555;
-	    	font-size: 24px;    /*如标题栏内包含中文则需要将此项改为26px*/
-		text-align: center;
-		padding: 16px 15px;
-    		text-decoration: none;
+	    	    color: #555;
+	    	    font-size: 24px;    /*如标题栏内包含中文则需要将此项改为26px*/
+		        text-align: center;
+		        padding: 16px 15px;
+    		    text-decoration: none;
                 border-radius: 50px
             }
 
             a.top {
-    		display: inline-block;
-	    	color: #00ccaa;
-	    	font-size: 19px;
-		text-align: center;
-		padding: 16px 15px;
-    		text-decoration: none;
-	    }
+    		    display: inline-block;
+	    	    color: #00ccaa;
+	    	    font-size: 19px;
+		        text-align: center;
+		        padding: 16px 15px;
+    		    text-decoration: none;
+	    	}
 		
-    	    li a:hover, .dropdown:hover, .dropbtn {
-	    	background-color: #fff;
-            }
+    		li a:hover, .dropdown:hover, .dropbtn {
+	    	    background-color: #fff;
+		    }
 
             a.material-iconstop:hover{
                 background-color: #ddd;
@@ -229,37 +229,38 @@
                 color: #333;
             }
 		
-    	    .dropdown {
-	    	display: inline-block;
-	    }
+    		.dropdown {
+	    	    display: inline-block;
+		    }
 		
-            .dropdown-content {
-    		display: none;
-	    	position: absolute;
-		background-color: #f9f9f9;
-		min-width: 160px;
-    		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    		border-radius: 20px;
-	    }
+		    .dropdown-content {
+    		    display: none;
+	    	    position: absolute;
+		        background-color: #f9f9f9;
+		        min-width: 160px;
+    		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    		    border-radius: 20px;
+	    	}
 		
-	    .dropdown-content a {
-		color: #333;
-    		padding: 12px 16px;
-	    	text-decoration: none;
-		display: block;
+		    .dropdown-content a {
+		        color: #333;
+    		    padding: 12px 16px;
+	    	    text-decoration: none;
+		        display: block;
                 font-size: 15px;
                 border-radius: 20px;
-    	    }
+    		}
 		
-	    .dropdown-content a:hover {background-color: #f1f1f1}
-		.dropdown:hover .dropdown-content {
-    		display: block;
-	    }
+	    	.dropdown-content a:hover {background-color: #f1f1f1}
+		
+		    .dropdown:hover .dropdown-content {
+    		    display: block;
+	    	}
 
             a{
-                text-decoration: none;
+			    text-decoration: none;
                 transition: all 0.3s linear;
-	    }
+		    }
 
             footer{
                 background: #eeeeee;
@@ -276,18 +277,20 @@
             }
 
             a.float{    /*浮空按钮*/
-                padding-left: 20px;
-                padding-right: 20px;
-                padding-top: 10px;
-                padding-bottom: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
                 color: #fff;
                 background-color: #00ccaa;
                 border: 0 solid #00ccaa;
                 border-radius: 50px;
                 box-shadow: 0px 3px  3px #00000066;
-                bottom: 30px;
+                font-size: 25px;
+                font-family: 'Material Icons';
+                z-index: 114513;
+                bottom: 85px;
                 right: 30px;
-                position: fixed;
                 transition: all 0.3s linear;
             }
 
@@ -559,6 +562,7 @@
                 <br>
                 <h1>Friends</h1>
                 <br>
+                <a class="float">add</a>
             </div>
             <br>
             <br>
@@ -583,7 +587,7 @@
                 <div>Author</div>
                 zzChumo
             </a>
-            <a onclick="aHref('https://github.com/zzChumo/ChatApp-GUI')" class="setting-a">
+            <a onclick="aHref('https://github.com/zzChumo/ChatApp-UI')" class="setting-a">
                 <div>GitHub</div>
                 Click me
             </a>
